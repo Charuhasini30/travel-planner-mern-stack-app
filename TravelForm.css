@@ -1,0 +1,82 @@
+/* General styling for TravelForm */
+.travel-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Styling for each form field */
+.travel-form label {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  width: 100%;
+}
+
+.travel-form input, 
+.travel-form select {
+  padding: 10px;
+  margin: 5px 0 20px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.travel-form select {
+  cursor: pointer;
+}
+
+/* Button styling */
+.travel-form button {
+  padding: 10px 20px;
+  background-color: #3498db; /* Blue color */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 50%; /* Set width to make the button smaller */
+  text-align: center;
+}
+
+.travel-form button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Add Trip button specific style */
+.travel-form button:nth-child(1) {
+  background-color: #28a745; /* Green color for 'Add Trip' */
+}
+
+.travel-form button:nth-child(1):hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Styling for the heading */
+.travel-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styling for the page container */
+.travel-form {
+  margin-top: 50px;
+}
+
+/* Optional: Styling for other buttons like "Show AI Chat" */
+.show-ai-chat-btn {
+  background-color: #f39c12; /* Orange color */
+  margin-top: 20px;
+  width: 50%; /* Set width to make the button smaller */
+}
+
+.show-ai-chat-btn:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+}

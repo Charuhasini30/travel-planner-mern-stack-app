@@ -1,0 +1,77 @@
+/* Default styles for larger screens */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Form Container */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Mobile View: Make it responsive */
+@media (max-width: 600px) {
+  .header {
+    font-size: 1.5rem;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .form-group input,
+  .form-group button {
+    font-size: 1rem;
+  }
+}
+
+/* Button hover effect */
+.form-group button:hover {
+  background-color: #0056b3;
+}
